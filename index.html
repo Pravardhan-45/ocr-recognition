@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to Text</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Image to Text</h2>
+
+        <input type="file" id="imageInput">
+        <button onclick="startTextExtraction()">Convert to Text</button>
+
+        <div id="output" class="result"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@2.1.4/dist/tesseract.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
